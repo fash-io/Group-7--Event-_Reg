@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+    <!-- dark mode -->
+<html lang="en" data-bs-theme="dark" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <style>
+        h1 {text-shadow: 2px 2px 7px gray;}
+        h6 {text-shadow: 0 0 3px gray;}
+    </style>
+</head >
+<body>
+    <!-- <nav class="navbar navbar-dark bg-dark navbar-expand-sm"> -->
+        <!-- dark mode -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container p-2">
+            <div class="d-flex flex-column flex-sm-row w-100">
+                <ul class="navbar-nav fs-5 me-auto ">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="bksession.html" class="nav-link">Book sessions</a></li>
+                    <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="d-flex my-2">
+                    <input type="search" class="form-control" placeholder="Search"> 
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row my-5 py-5">
+            <div class="col-lg-6">
+                <img src="crossfit-534615_640.jpg" class="rounded-3 img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 p-lg-5 mt-3">
+                <h1>Online Fitness <br><small>&</small>  Workout Classes</h1>
+                <p class="p-lg-3 p-1 lead">Our online fitness classes and workouts have your whole well-being in mind. With our wide offering of online workout classes, you can get stronger, sleep better, boost your energy, and reduce stress with some of the best online fitness teachers. Choose from a variety of workout classes like explosive HIIT workouts, heart-rate boosting cardio circuits, and targeted strength classes, all designed to fit even the busiest schedule.</p>
+                <!-- <button type="button" class="btn btn-outline-dark ">Start now</button> -->
+                <!-- dark mode -->
+                <a type="button" class="btn btn-outline-light" href="bksession.html">Book Session</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-5 py-5 align-items-center justify-content-around">
+            <div class="col-lg-4 my-4">
+                <div class="card shadow-lg">
+                    <h6 class="card-header text-center fw-bold ">SPINNING</h6>
+                    <img src="ggg10.jpg" class="img-fluid" alt="...">
+                    <div class="card-body">       
+                        <p class="card-text">Our Spinning class is a low-impact exercise that is ideal for all fitness enthusiasts.</p>
+                        <a type="button" href="bksession.html" class="btn btn-secondary">Book Session</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-2">
+                <div class="card shadow-lg">
+                    <h6 class="card-header text-center">YOGA</h6>
+                    <img src="ggg11.jpg" alt="..."class="img-fluid" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Our yoga classes keeps you centered mentally and physically and makes you more flexible.</p>
+                        <a href="bksession.html" type="button" class="btn btn-secondary">Book Session</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-2">
+                <div class="card shadow">
+                    <h6 class="card-header text-center">CORE CARDIO</h6>
+                    <img src="ggg12.jpg" alt="..."class="img-fluid">
+                    <div class="card-body">
+                        <p class="card-text">Our core cardio classes are essentially designed to help you reach your fitness goals.</p>
+                        <a type="button" href="bksession.html" class="btn btn-secondary">Book Session</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4 p-5 bg-secondary rounded-4 w-75">
+        <div class="row">
+            <h3 class="display-4 text-center mb-5" id="contact-us">Contact US</h3>
+            <div class="col my-5">
+                <form action="">
+                    <div class="form-floating my-3">
+                        <input type="text" id="name" name="name" placeholder="Enter name" class="form-control">
+                        <label for="name" class="form-label">Name:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" id="mail" name="mail" placeholder="Enter name" class="form-control">
+                        <label for="mail" class="form-label">Email:</label>
+                    </div>
+                    <div class="form-floating my-3">
+                        <textarea class="form-control" style="min-height: 200px;"></textarea>
+                        <label for=",,," class="form-label">Suggestions:</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary float-end">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

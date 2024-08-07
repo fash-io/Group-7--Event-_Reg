@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <style>
+    form{
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+    span{
+      top: 3%;
+      left: 10%;
+    }
+    span a {
+      text-decoration: none;
+    }
+    /* h3{
+      position: absolute;
+      top: 5%;
+      left: 43%;
+    } */
+  </style>
+</head>
+<body>
+  <span class="position-absolute "><a href="Assignment.html" class="text-info">< Go back</a></span>
+  <div class="container-fluid container-lg ">
+    <h3 class="display-5 text-center mt-3 mb-0 pb-0">Bookings</h3>
+
+    <div class="row">
+      <div class="pt-0 mt-0 col-lg-6 d-flex justify-content-center align-items-center">
+        <img src="./crossfit-534615_640.jpg" alt="..." class="img-fluid animate rounded">
+      </div>
+      <div class="col-lg-6">
+        <form action="" class=" d-flex flex-column w-100 p-lg-5">
+          <div class="form w-100 p-5 mx-5">
+            <div class="form-floating my-3">
+              <input type="text" id="name" name="name" placeholder="Enter name" class="form-control">
+              <label for="name" class="form-label">Name:</label>
+            </div>
+            <div class="form-floating my-3">
+              <input type="date" id="date" name="date" placeholder="Paa" class="form-control">
+              <label for="date" class="form-label">Date:</label>
+            </div>
+            <div class="my-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select type</option>
+                <option value="1">Spinning</option>
+                <option value="2">Yoga</option>
+                <option value="3">Core Cardio</option>
+              </select>
+            </div>
+            <div class="form-floating my-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+            </div>
+            <div class="form-floating my-3">
+              <input type="text" id="num" name="num" placeholder="Phone" class="form-control">
+              <label for="num" class="form-label">Phone Number:</label>
+            </div>
+            <div class="form-floating my-3">
+              <input type="email" id="mail" name="mail" placeholder="mail" class="form-control">
+              <label for="mail" class="form-label">Email:</label>
+            </div>
+            <div class="form-floating my-3">
+              <input type="text" id="addr" name="addr" placeholder="address" class="form-control">
+              <label for="mail" class="form-label">Address:</label>
+            </div>
+            <div class="button d-flex justify-content-end mt-5">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
